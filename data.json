@@ -1,0 +1,52 @@
+{
+ {"id": "0",
+ "project_name":"A Random Quote Generator",
+ "description":"An app that displays random famous quotes each time a button is clicked.",
+ "technologies":["JavaScript", "HTML", "CSS"]
+ "live_link":"https://github.com/evelynarevaloWw10/student-files.git",
+ "github_link":"https://htmlpreview.github.io/?https://github.com/Virginialaraprojects/Techdegree-project-1",
+ "image_urls":[]
+ },
+ {"id":"1",
+ "project_name":"Programming Student list",
+ "description": "An app that displays a list of students using data pagination to filter through pages.",
+ "technologies":["JavaScript", "HTML", "CSS"],
+ "live_link":"https://virginialaraprojects.github.io/Techdegree-project-2/",
+ "github_link":"https://github.com/Virginialaraprojects/Techdegree-project-2",
+ "image_urls":[]
+ },
+ {"id":"2",
+ "project_name":"Full Stack Conference Sign Up Form",
+ "description":"An interactive registration form for a full stack conference.",
+ "technologies":["JavaScript", "HTML", "CSS"],
+ "live_link":"https://virginialaraprojects.github.io/Techdegree-project-3/",
+ "github_link":"https://github.com/Virginialaraprojects/Techdegree-project-3",
+ "image_urls":[]
+ },
+ {"id":"3",
+ "project_name":"Phrase Hunter",
+ "description": "A browser-based, word guessing game",
+ "technologies":["JavaScript", "HTML", "CSS"],
+ "live_link":"https://virginialaraprojects.github.io/Techdegree-project-4/",
+ "github_link":"https://github.com/Virginialaraprojects/Techdegree-project-5",
+ "image_urls":[]
+ }
+ {"id":"4",
+ "project_name":"",
+ "description":,
+ "technologies":["JavaScript", "HTML", "CSS"],
+ "live_link":"https://virginialaraprojects.github.io/Techdegree-project-5/",
+ "github_link":"https://github.com/Virginialaraprojects/Techdegree-project-5",
+ "image_urls":[]
+ }
+
+ };
+
+
+
+
+
+
+
+
+
