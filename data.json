@@ -1,11 +1,12 @@
 {
+    "data":[
  {"id": "0",
  "project_name":"A Random Quote Generator",
  "description":"An app that displays random famous quotes each time a button is clicked.",
- "technologies":["JavaScript", "HTML", "CSS"]
- "live_link":"https://github.com/evelynarevaloWw10/student-files.git",
+ "technologies":["JavaScript", "HTML", "CSS"],
+ "live_link":"https://virginialaraprojects.github.io/Techdegree-project-1/",
  "github_link":"https://htmlpreview.github.io/?https://github.com/Virginialaraprojects/Techdegree-project-1",
- "image_urls":[]
+ "image_urls":["/static/images/Unit1/random-quote-image-1-vl.png","/static/images/Unit1/random-quote-image-2-vl.png","/static/images/Unit1/random-quote-image-3-vl.png","/images/Unit1/random-quote-image-4-vl.png"]
  },
  {"id":"1",
  "project_name":"Programming Student list",
@@ -13,7 +14,7 @@
  "technologies":["JavaScript", "HTML", "CSS"],
  "live_link":"https://virginialaraprojects.github.io/Techdegree-project-2/",
  "github_link":"https://github.com/Virginialaraprojects/Techdegree-project-2",
- "image_urls":[]
+ "image_urls":["/static/images/Unit2/programming-student-image-1.png","/static/images/Unit2/programming-student-image-2.png","/static/images/Unit2/programming-student-image-3.png"]
  },
  {"id":"2",
  "project_name":"Full Stack Conference Sign Up Form",
@@ -21,7 +22,8 @@
  "technologies":["JavaScript", "HTML", "CSS"],
  "live_link":"https://virginialaraprojects.github.io/Techdegree-project-3/",
  "github_link":"https://github.com/Virginialaraprojects/Techdegree-project-3",
- "image_urls":[]
+ "image_urls":["/static/images/Unit3/Interactive-form-image-1.png",
+ "/static/images/Unit3/Interactive-form-image-2.png","/static/images/Unit3/Interactive-form-image-3.png"]
  },
  {"id":"3",
  "project_name":"Phrase Hunter",
@@ -29,18 +31,19 @@
  "technologies":["JavaScript", "HTML", "CSS"],
  "live_link":"https://virginialaraprojects.github.io/Techdegree-project-4/",
  "github_link":"https://github.com/Virginialaraprojects/Techdegree-project-5",
- "image_urls":[]
- }
+ "image_urls":["/static/images/Unit4/Phrase-hunter-image-1.png",
+ "/static/images/Unit4/phrase-hunter-image2.png","/static/images/Unit4/phrase-hunter-image3.png","/static/images/Unit4/phrase-hunter-image4.png","/static/images/Unit4/phrase-hunter-image5.png"]
+ },
  {"id":"4",
- "project_name":"",
- "description":,
+ "project_name":"Star-up Employee Directory",
+ "description":"An app for a startup company to display employee information.",
  "technologies":["JavaScript", "HTML", "CSS"],
  "live_link":"https://virginialaraprojects.github.io/Techdegree-project-5/",
  "github_link":"https://github.com/Virginialaraprojects/Techdegree-project-5",
- "image_urls":[]
+ "image_urls":["/static/images/Unit5/Employee-directory-image-1.png","/static/images/Unit5/Employee-directory-image-2.png","/static/images/Unit5/Employee-directory-image-3.png"]
  }
-
- };
+]
+ }
 
 
 
