@@ -1,6 +1,6 @@
 const express= require('express');
 const app =express();
-const { data }=require('./data.json');
+const { projects }=require('./data.json');
 
 /****** View engine ******/
 app.set('view engine','pug')
@@ -10,7 +10,7 @@ app.use('/static',express.static('public'));
 /****** GET home page ******/
 app.get('/', (req,res)=>{
 //pass all the project data to the index template
-    res.render('index',{data});
+    res.render('index',{projects});
 });
 
 /******  GET About page ******/
@@ -19,14 +19,16 @@ app.get('/about',(req,res)=>{
 });
 
 /****** GET Project page ******/
-app.get('/project/:id',function(req,res,next){
-    const  projectId =req.params.id;
-    const  project = data.find(({id})=> id === +projectId);
+app.get('/project/:id',(req,res,next)=>{
+    const id =req.params.id;
+    const project = projects[id];
+    //console.log(data.find(({ id })=> id === +projectId));
+    
     if(project){
     //pass the project data to project template
-        res.render('project',{data});
+        res.render('project',{project});
     }else{
-        res.sendStatus(404);
+        next();
     }
 })  
 /****** 404 Error Handler ******/
@@ -38,7 +40,14 @@ app.use((req,res,next)=>{
 })
 
 /****** Global Error Handler ******/
-
+app.use((err,req,res, next)=>{
+    if(err.status === 404){
+        console.log("404 Error Handler Called");
+        res.status (404).render('page-not-found',{ err })
+    }else{
+    res.status(err.status|| 500).render('error',{ err });
+    }
+});
 
 
 // display app on screen

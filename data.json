@@ -1,11 +1,11 @@
 {
-    "data":[
+    "projects":[
  {"id": "0",
  "project_name":"A Random Quote Generator",
  "description":"An app that displays random famous quotes each time a button is clicked.",
  "technologies":["JavaScript", "HTML", "CSS"],
  "live_link":"https://virginialaraprojects.github.io/Techdegree-project-1/",
- "github_link":"https://htmlpreview.github.io/?https://github.com/Virginialaraprojects/Techdegree-project-1",
+ "github_link":"https://github.com/Virginialaraprojects/Techdegree-project-1",
  "image_urls":["/static/images/Unit1/random-quote-image-1-vl.png","/static/images/Unit1/random-quote-image-2-vl.png","/static/images/Unit1/random-quote-image-3-vl.png","/images/Unit1/random-quote-image-4-vl.png"]
  },
  {"id":"1",
@@ -30,12 +30,12 @@
  "description": "A browser-based, word guessing game",
  "technologies":["JavaScript", "HTML", "CSS"],
  "live_link":"https://virginialaraprojects.github.io/Techdegree-project-4/",
- "github_link":"https://github.com/Virginialaraprojects/Techdegree-project-5",
+ "github_link":"https://github.com/Virginialaraprojects/Techdegree-project-4",
  "image_urls":["/static/images/Unit4/Phrase-hunter-image-1.png",
  "/static/images/Unit4/phrase-hunter-image2.png","/static/images/Unit4/phrase-hunter-image3.png","/static/images/Unit4/phrase-hunter-image4.png","/static/images/Unit4/phrase-hunter-image5.png"]
  },
  {"id":"4",
- "project_name":"Star-up Employee Directory",
+ "project_name":"Start-up Employee Directory",
  "description":"An app for a startup company to display employee information.",
  "technologies":["JavaScript", "HTML", "CSS"],
  "live_link":"https://virginialaraprojects.github.io/Techdegree-project-5/",

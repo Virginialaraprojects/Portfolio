@@ -108,7 +108,7 @@ a {
 nav {
   width: 100%;
   padding: 20px;
-  border-bottom: 1px solid #eaeaea;
+  border-bottom: 15px solid #b4dfe5;
 }
 
 nav a {
@@ -238,7 +238,7 @@ nav a span {
   font-size: 125%;
   margin: 0 auto;
   padding-bottom: 40px;
-  border-bottom: 1px solid #eaeaea;
+  border-bottom: 15px solid #b4dfe5;
 }
 
 .projects-box h5 {
