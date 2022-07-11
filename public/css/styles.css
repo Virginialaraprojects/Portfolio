@@ -20,9 +20,9 @@ body {
   font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-weight: normal;
   line-height: 1.5;
-  color: #0a0a0a;
+  color: #303C6C;
   background: #fefefe;
-  background: #000;
+  background: #FBE8A6;
   transform: translateX(0px);
   transition: all 0.4s ease-out;
 }
@@ -137,7 +137,7 @@ nav a span {
   height: 100%;
   min-height: 100%;
   padding: 20px;
-  background: #000;
+  background: #FBE8A6;
 }
 
 .sidebar-info-box {
@@ -159,7 +159,7 @@ nav a span {
 }
 
 .sidebar h5 {
-  color: #fefefe;
+  color: #303C6C;
   margin: 0 auto 0.5rem;
 }
 
@@ -181,11 +181,11 @@ nav a span {
 
 .header {
   vertical-align: middle;
-  color: #fefefe;
+  color: #303C6C;
   height: 40px;
   padding: 0.5rem;
-  background: #0a0a0a;
-  border-left: 1px solid #0a0a0a;
+  background: #FBE8A6;
+  border-left: 1px solid #303C6C;
 }
 
 .header span {
@@ -201,7 +201,7 @@ nav a span {
   width: 20px;
   height: 16px;
   border: none;
-  background: #0a0a0a;
+  background: #303C6C;
   margin-top: 3px;
   margin-right: 10px;
   border-top: 2px solid #fefefe;
@@ -229,7 +229,7 @@ nav a span {
 
 .portfolio-intro h1 {
   font-size: 1.5rem;
-  color: #0a0a0a;
+  color: #303C6C;
   margin: 0 auto 8px;
 }
 
@@ -296,7 +296,7 @@ nav a span {
   max-width: 255px;
   margin: auto 0 5px 0;
   padding: 0.85em 1em;
-  background-color: #333;
+  background-color: #f4976c;
   border: 1px solid transparent;
 }
 
